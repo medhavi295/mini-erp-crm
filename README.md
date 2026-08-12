@@ -1,6 +1,9 @@
 # Mini ERP + CRM
+A full-stack Mini ERP & CRM application for managing customers,
+products, inventory/stock movements, and delivery challans.
 
-A backend API for managing customers, products, inventory movements, and delivery challans. It is built with Express, TypeScript, and PostgreSQL.
+The application provides a React-based frontend, a Node.js/Express
+backend, and PostgreSQL database integration.
 
 ## Features
 
@@ -12,10 +15,22 @@ A backend API for managing customers, products, inventory movements, and deliver
 
 ## Tech stack
 
-- Node.js and TypeScript
+### Frontend
+- React
+- Vite
+- CSS
+
+### Backend
+- Node.js
+- TypeScript
 - Express 5
-- PostgreSQL (`pg`)
-- CORS and dotenv
+
+### Database
+- PostgreSQL
+
+### Other
+- CORS
+- dotenv
 
 ## Project structure
 
