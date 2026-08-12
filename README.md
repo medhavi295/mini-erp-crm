@@ -36,17 +36,32 @@ backend, and PostgreSQL database integration.
 
 ```text
 MINI-ERP-CRM/
+## Project structure
+
+```text
+MINI-ERP-CRM/
 ├── backend/
 │   ├── src/
-│   │   ├── config/db.ts
+│   │   ├── config/
 │   │   ├── controllers/
 │   │   ├── routes/
 │   │   └── server.ts
-│   ├── .env
 │   ├── package.json
 │   └── tsconfig.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── App.jsx
+│   │   ├── App.css
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── .gitignore
 └── README.md
-```
 
 ## Prerequisites
 
