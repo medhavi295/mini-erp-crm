@@ -36,10 +36,6 @@ backend, and PostgreSQL database integration.
 
 ```text
 MINI-ERP-CRM/
-## Project structure
-
-```text
-MINI-ERP-CRM/
 ├── backend/
 │   ├── src/
 │   │   ├── config/
@@ -62,39 +58,38 @@ MINI-ERP-CRM/
 │
 ├── .gitignore
 └── README.md
+```
 
 ## Prerequisites
 
 - Node.js 18 or newer
 - A PostgreSQL database
 
-The API expects these database tables to exist: `customers`, `products`, `stock_movements`, `challans`, and `challan_items`. The challan and stock-movement tables may also reference a `users` table through `created_by`.
+The API expects these database tables to exist:
+`customers`, `products`, `stock_movements`, `challans`, and `challan_items`.
 
 ## Setup
 
 1. Install backend dependencies.
 
-   ```bash
-   cd backend
-   npm install
-   ```
+```bash
+cd backend
+npm install
+```
 
 2. Create `backend/.env` with your database connection details.
 
-   ```env
-   PORT=5000
-   DATABASE_URL=postgresql://USER:PASSWORD@HOST:5432/DATABASE
-   JWT_SECRET=replace-with-a-secure-secret
-   ```
+```env
+PORT=5000
+DATABASE_URL=postgresql://USER:PASSWORD@HOST:5432/DATABASE
+JWT_SECRET=replace-with-a-secure-secret
+```
 
 3. Start the development server.
 
-   ```bash
-   npm run dev
-   ```
-
-The API runs at `http://localhost:5000` by default.
-
+```bash
+npm run dev
+```
 ## Scripts
 
 Run these from the `backend` directory:
